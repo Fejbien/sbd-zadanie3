@@ -10,4 +10,4 @@ SELECT * FROM `products` WHERE `price` BETWEEN 10 AND 15 AND NOT `category_id` I
 
 SELECT * FROM `orders` WHERE `order_date` BETWEEN '1996-7-01 00:00:00' AND '1996-7-31 00:00:00';
 
-SELECT * FROM `customers` WHERE `id` IN (SELECT `id` FROM `customers` WHERE `id` BETWEEN 77 AND 90);
+SELECT * FROM `orders` WHERE `customer_id` IN (SELECT `id` FROM `customers` WHERE `id` BETWEEN 77 AND 90);
