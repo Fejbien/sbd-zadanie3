@@ -70,6 +70,22 @@ GROUP BY
 
 
 /*     4     */
+SELECT
+    e.id,
+    e.first_name,
+    e.last_name,
+    o.id,
+    o.customer_id,
+    o.employee_id,
+    o.order_date,
+    o.shipper_id
+FROM
+    `employees` AS `e`
+RIGHT JOIN `orders` AS `o`
+ON
+    o.employee_id = e.id
+WHERE
+    1
 
 
 
