@@ -1,3 +1,5 @@
+// MIN, MAX, COUNT, AVG, SUM, GROUP BY
+
 SELECT MIN(`price`) FROM `products` WHERE 1;
 
 SELECT MAX(`price`) FROM `products` WHERE 1;

@@ -1,3 +1,4 @@
+// HAVING , EXISTS
 
 SELECT COUNT(`id`), `country` FROM customers GROUP BY `country` HAVING COUNT(`id`) > 5;
 

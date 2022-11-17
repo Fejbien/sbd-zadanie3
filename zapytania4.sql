@@ -1,3 +1,4 @@
+// JOIN, INNER JOIN, LEFT JOIN, RIGHT JOIN, Self Join
 /*     1     */
 SELECT
     c.id AS `Customer id`,

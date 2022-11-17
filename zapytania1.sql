@@ -1,3 +1,5 @@
+// WHERE, AND, OR, ORDER BY
+
 SELECT * FROM `customers` WHERE `country`="Germany";
 
 SELECT * FROM `customers` WHERE `city`="Berlin";
